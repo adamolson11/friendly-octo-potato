@@ -1,5 +1,18 @@
 /* styles.css */
 
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+.app-container {
+    @apply flex justify-between items-center h-screen p-8;
+  }
+  
+  .left-panel {
+    @apply flex-1;
+  }
+  
+  .right-panel {
+    @apply flex-1 flex justify-end items-center;
+  }
+  
+  .cta-button {
+    @apply bg-green-500 text-white px-4 py-2 rounded cursor-pointer;
+  }
+  

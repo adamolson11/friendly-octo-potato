@@ -2,23 +2,23 @@
 
 import React from 'react';
 import './App.css';
-import './styles.css'; // Replace with the path to your stylesheet
+import './styles.css'; // Include your global styles
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="app-container">
+      <div className="left-panel">
         <h1>Your Improvement App</h1>
         <p>
           Unlock your full potential and achieve your goals with our personalized improvement app.
         </p>
-        <div className="cta-buttons">
-          <button className="primary-cta">Get Started</button>
-          <button className="secondary-cta">Learn More</button>
-        </div>
-      </header>
+      </div>
+      <div className="right-panel">
+        <button className="cta-button">Get Started</button>
+      </div>
     </div>
   );
 }
 
 export default App;
+
