@@ -1,22 +1,21 @@
-import logo from './logo.svg';
+// App.jsx (or App.js)
+
+import React from 'react';
 import './App.css';
+import './styles.css'; // Replace with the path to your stylesheet
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1>Your Improvement App</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Unlock your full potential and achieve your goals with our personalized improvement app.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="cta-buttons">
+          <button className="primary-cta">Get Started</button>
+          <button className="secondary-cta">Learn More</button>
+        </div>
       </header>
     </div>
   );
